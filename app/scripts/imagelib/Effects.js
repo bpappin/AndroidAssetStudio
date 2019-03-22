@@ -16,7 +16,8 @@
 
 import {Drawing} from './Drawing';
 
-const OUTER_EFFECTS = new Set(['outer-shadow', 'cast-shadow']);
+// const OUTER_EFFECTS = new Set(['outer-shadow', 'cast-shadow']);
+const OUTER_EFFECTS = new Set(['cast-shadow']);
 const INNER_EFFECTS = new Set(['inner-shadow', 'score']);
 const FILL_EFFECTS = new Set(['fill-color', 'fill-lineargradient', 'fill-radialgradient']);
 
